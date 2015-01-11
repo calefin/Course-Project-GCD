@@ -72,4 +72,4 @@ names(All)<-gsub("BodyBody", "Body", names(All))
 # "Independent tidy data set with the average of each variable for each activity and each subject".
 TidyData<-aggregate(. ~subject + activity, All, mean)
 TidyData<-TidyData[order(TidyData$subject,TidyData$activity),]
-write.table(TidyData, file = "tidydata2.txt",row.name=FALSE)
+write.table(TidyData, file = "TidyData.txt",row.name=FALSE)
