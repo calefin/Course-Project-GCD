@@ -9,4 +9,5 @@ Code work correctly with R version 3.1.2 (2014-10-31).
 ### Files in the repository
 
 * `CodeBook.md` describes the variables, the data, and any transformations or work that you performed to clean up the data;
-* `run_analysis.R` R code. describes the variables, the data, and any transformations or work that you performed to clean up the data. Can be run as long as the the appropriate packages and R were installed.
+* `run_analysis.R` R code. describes the variables, the data, and any transformations or work that you performed to clean up the data. Can be run as long as the the appropriate packages and R were installed;
+* `README.md` general informations about the repository content.
